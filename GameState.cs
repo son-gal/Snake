@@ -22,6 +22,7 @@ namespace Snake
         private double interval = 500;
         private double intervalDecreaseRate = 0.85;
 
+
         public GameState(int rows, int cols)
         {
             Rows = rows;
@@ -172,5 +173,6 @@ namespace Snake
                 AddFood();
             } 
         }
+        
     }
 }
